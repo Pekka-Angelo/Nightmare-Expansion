@@ -1,0 +1,49 @@
+{
+	"name": "usine de drone spirituel réparateur",
+	"description": "Créer des drone réparateur ultra avancé",
+	"type": "UnitFactory",
+	"unitType": "soigneur",
+	"size": 3,
+	"produceTime": 200,
+	"health": 350,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 80
+				},
+				{
+					"item": "nightmare" 
+   "amount": 40
+   },
+   {
+   "item": "titanium",
+					"amount": 80
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+	    {
+			"item": "graphite",
+			"amount": 300
+		},
+		{
+			"item": "titanium",
+			"amount": 1000
+	 	}, 
+  {
+  "item": "thorium"
+  "amount": 300
+  },
+	 {
+			"item": "silicon",
+			"amount": 300
+		}
+	]
+}

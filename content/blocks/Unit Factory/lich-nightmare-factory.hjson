@@ -1,0 +1,61 @@
+{
+	"name": "Lich nightmare factory",
+	"description": "Créer des lich venus tous droit d'un Cauchemar, elle sont plus puissante que les lich classiques",
+	"type": "UnitFactory",
+	"unitType": "lichnightmare",
+	"size": 5,
+	"produceTime": 3800,
+	"health": 800,
+	"maxSpawn": 3,
+	"consumes": {
+		"power": 18.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 300
+				},
+				{ 
+   "item": "nightmare", 
+   "amount": 80
+   }, 
+   {
+					"item": "graphite",
+					"amount": 180
+				},
+				{
+					"item": "titanium",
+					"amount": 300
+				},
+				{
+					"item": "plastanium",
+					"amount": 200
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+	    {
+			"item": "graphite",
+			"amount": 1000
+		},
+		{
+			"item": "titanium",
+			"amount": 1500
+		},
+		{
+			"item": "silicon",
+			"amount": 1000
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 350
+		},
+		{
+			"item": "plastanium",
+			"amount": 150
+		}
+	]
+}

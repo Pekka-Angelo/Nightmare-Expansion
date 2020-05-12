@@ -1,0 +1,38 @@
+{
+    "type": "groundUnit",
+    "name": "nightmare",
+    "description": "Créer des unité Cauchemar auto-destructeur ",
+    "speed": 0.14,
+    "health": 800,
+    "range": 12,
+    "drag": 0.2,
+    "rotatespeed": 0.1,
+    "mass": 2.2,
+    "weapon": {
+        "name": "flame-equip",
+        "length": 0,
+        "reload": 1,
+        "alternate": true,
+        "shootSound": "Cannon",
+        "bullet": {
+            "type": "BasicBulletType",
+            "keepVelocity": false,
+            "speed": 1,
+            "damage": 30,
+            "bulletWidth": 0,
+            "bulletHeight": 0,
+            "instantDisappear": true,
+            "lifetime": 30,
+            "splashDamageRadius": 30,
+            "splashDamage": 200,
+            "shootEffect": "explosion",
+            "smokeEffect": "bigShockwave",
+            "incendAmount": 15,
+            "incendSpread": 35,
+            "incendChance": 35,
+            "killShooter": true,
+            "fragBullets": 20,
+            "fragBullet": "bombIncendiary"
+        }
+    }
+}

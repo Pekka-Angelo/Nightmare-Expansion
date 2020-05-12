@@ -1,0 +1,45 @@
+{
+	"name": "usine de drone nightmare Constructeur",
+	"description": "Créer des unité drones constructeurs plus performant que les classique",
+	"type": "UnitFactory",
+	"unitType": "constructeur",
+	"size": 3,
+	"produceTime": 500,
+	"health": 600,
+	"maxSpawn": 1,
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 100
+				},
+				{
+					"item": "nightmare", 
+    "amount": 80
+   }, 
+   {
+   "item": "titanium",
+			 	"amount": 100
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+	    {
+			"item": "graphite",
+			"amount": 300
+		},
+		{
+			"item": "titanium",
+			"amount": 600
+		},
+		{
+			"item": "silicon",
+			"amount": 300
+		}
+	]
+}

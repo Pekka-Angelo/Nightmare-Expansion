@@ -1,0 +1,26 @@
+{
+	"name": "Mur nightmare",
+	"localizedName": "Large Mending Wall"
+	"description": "Petit mur nightmare assez résistant et bloque le plupart des dégâts",
+	"health": 1200,
+	"update": true,
+	"solid": true,
+	"BlockGroup": "walls",
+	"size": 1,
+	"requirements": [
+	    {
+			"item": "nightmare",
+			"amount": 5
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 3
+		},
+		{
+			"item": "thorium",
+			"amount": 20
+		}
+	],
+	"category": "defense",
+	"research": "surge-wall"
+}

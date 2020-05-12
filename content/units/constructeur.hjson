@@ -1,0 +1,22 @@
+type: BuilderDrone
+name: Drone nightmare Constructeur. 
+description: Une version plus avancé des drones constructeurs classique.
+speed: 1.0
+drag: 0.125
+mass: 9
+maxVelocity: 2.75
+flying: true
+health: 1000
+engineOffset: 5.75
+engineSize: 5.75
+range: 120
+buildPower: 1.0
+retreatPercent: 0.3
+toMine: [thorium]
+weapon: {
+  name: clear
+  length: 1.5
+  reload: 15
+  alternate: true
+  bullet: lightning
+}

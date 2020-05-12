@@ -1,0 +1,20 @@
+name: Reaper stansformateur
+description: Vous transforme en un mécha ultra instable .
+type: MechPad
+mech: reaper-mech 
+size: 6
+consumes: {
+  power: 0.7
+}
+category: upgrade
+research: delta-mech-pad
+requirements: [
+  titanium/8000
+  silicon/8000
+  graphite/8000
+  surge-alloy/2000
+  thorium/8000
+  metaglass/4000
+  phase-fabric/1000
+]
+

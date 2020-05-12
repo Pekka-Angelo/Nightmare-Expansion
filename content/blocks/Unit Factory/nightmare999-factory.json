@@ -1,0 +1,41 @@
+{
+	"name": "usine de combatant Cauchemar",
+	"description": "Créer des unité Cauchemar plutôt basique mais redoutable en groupe",
+	"type": "UnitFactory",
+	"unitType": "nightmare999",
+	"size": 2,
+	"produceTime": 500,
+	"health": 350,
+	"maxSpawn": 6,
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 20
+				},
+				{
+					"item": "titanium",
+					"amount": 20
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+	    {
+			"item": "graphite",
+			"amount": 50
+		},
+		{
+			"item": "titanium",
+			"amount": 80
+		},
+		{
+			"item": "silicon",
+			"amount": 60
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"name": "usine de drone miner ultra avancé",
+	"description": "Créer des drone miner ultra avancé qui mine très vite",
+	"type": "UnitFactory",
+	"unitType": "miner",
+	"size": 4,
+	"produceTime": 300,
+	"health": 700,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 3.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 20
+				},
+				{
+					"item": "titanium",
+					"amount": 20
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+	    {
+			"item": "graphite",
+			"amount": 100
+		},
+		{
+			"item": "titanium",
+			"amount": 100
+		},
+		{
+			"item": "silicon",
+			"amount": 100
+		}
+	]
+}

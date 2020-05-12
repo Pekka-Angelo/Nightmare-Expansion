@@ -1,0 +1,20 @@
+name: PEkkA stansformateur
+description: Vous transforme en un mécha ultra instable .
+type: MechPad
+mech: lich-mech 
+size: 4.5
+consumes: {
+  power: 0.7
+}
+category: upgrade
+research: delta-mech-pad
+requirements: [
+  titanium/2000
+  silicon/1000
+  graphite/1000
+  surge-alloy/500
+  thorium/2000
+  metaglass/1000
+  phase-fabric/300
+]
+

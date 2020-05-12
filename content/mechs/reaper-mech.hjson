@@ -1,0 +1,37 @@
+{
+    "name": "Reaper nightmare ",
+    "description": "La version nightmare du reaper!",
+    "speed": 0.35,
+    "boostSpeed": 0.35,
+    "itemCapacity": "300",
+    "mineSpeed": 8,
+    "drillPower": 4,
+    "mass": 15,
+    "buildPower": 2.2,
+    "engineColor": "ed0000",
+    "flying": true,
+    "health": 6000,
+    "weaponOffsetX": 7,
+    "weapon": {
+        "lenght": 7,
+        "shootSound":"corexplode",
+        "shotDelay":3,
+        "name":"MechDown-blaster",
+        "inaccuracy":0,
+        "spacing":3,
+        "velocityRnd":0,
+        "shootDuration":2500,
+        "reload":30,
+        "shots":10,
+        "ejectEffect":"none",
+        "alternate":false,
+        "bullet": {
+     type: BasicBulletType
+     bulletWidth: 20
+      bulletHeight: 25
+      speed: 10
+     lifetime: 15
+     damage: 50 }
+  }
+
+}

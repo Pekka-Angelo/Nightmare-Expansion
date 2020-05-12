@@ -1,0 +1,26 @@
+{
+	"name": "Mur nightmare",
+	"localizedName": "Large Mending Wall"
+	"description": "Mur assez résistant mais utilise ça capacité d'absorption de Cauchemar",
+	"health": 3200,
+	"update": true,
+	"solid": true,
+	"BlockGroup": "walls",
+	"size": 2,
+	"requirements": [
+	    {
+			"item": "nightmare",
+			"amount": 15
+		},
+		{
+			"item": "phase-fabric",
+			"amount": 10
+		},
+		{
+			"item": "thorium",
+			"amount": 50
+		}
+	],
+	"category": "defense",
+	"research": "surge-wall"
+}

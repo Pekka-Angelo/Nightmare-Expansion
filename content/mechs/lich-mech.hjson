@@ -1,0 +1,19 @@
+name: Lich nightmare
+Description: Lich nightmare et la version horreur nightmare de la lich.
+speed: 0.9
+boostSpeed: 1.0
+buildPower: 4
+mineSpeed: 10
+drillPower: 4
+ItemCapacity: 100
+engineColor: "c9d1ff"
+flying: true
+health: 3000
+weaponOffsetX: 4
+weapon: {
+name: reaper-faucheresse
+length: 1.5
+reload: 2.0
+alternate: true
+bullet: missileRevenant
+} 
