@@ -1,9 +1,9 @@
 {
     "type": "groundUnit",
-    "name": "nightmare",
-    "description": "Créer des unité Cauchemar auto-destructeur ",
+    "name": "Kamikaze Nightmare",
+    "description": "Cette unité est plutôt faible mais rien ne les arrêtera en large groupe",
     "speed": 0.14,
-    "health": 800,
+    "health": 700,
     "range": 12,
     "drag": 0.2,
     "rotatespeed": 0.1,

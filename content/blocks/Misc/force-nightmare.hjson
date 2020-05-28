@@ -1,0 +1,47 @@
+{
+    "name": "Force nightmare",
+    "description": "Un bouclier d'une puissances hors-normes capable d'absorber des dégâts d'une grande puissance. UN VRAI CAUCHEMAR POUR LES ENEMIES ",
+    "type": "forceProjector",
+    "health": 4000,
+    "size": 7,
+    "radius": 350,
+    "phaseUseTime": 650,
+    "phaseRadiusBoost": 100,
+    "cooldownNormal": 5.0,
+    "cooldownLiquid": 1.75,
+    "cooldownBrokenBase": 8.5,
+    "basePowerDraw": 1.5,
+    "breakage": 9500,
+    "consumes":{
+        "power": 17.5,
+        "items": {
+            "items": [
+                { "item": "nightmare", "amount": 1}
+            ]
+        },
+    },
+    "requirements": [
+        {
+			"item": "lead",
+			"amount": 3000
+		},
+		{
+			"item": "titanium",
+			"amount": 2000
+		},
+		{
+			"item": "silicon",
+			"amount": 800
+		}, 
+		{
+            "item": "nightmare" 
+            "amount": 200
+        },
+		{
+			"item": "plastanium",
+			"amount": 800
+		}
+    ],
+    "category": "effect",
+    "research": "force-projector"
+}

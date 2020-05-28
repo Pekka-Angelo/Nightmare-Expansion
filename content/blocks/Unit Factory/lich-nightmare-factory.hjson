@@ -4,11 +4,11 @@
 	"type": "UnitFactory",
 	"unitType": "lichnightmare",
 	"size": 5,
-	"produceTime": 3800,
+	"produceTime": 3000,
 	"health": 800,
 	"maxSpawn": 3,
 	"consumes": {
-		"power": 18.0,
+		"power": 8.0,
 		"items": {
 			"items": [
 			    {

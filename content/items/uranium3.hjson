@@ -1,0 +1,7 @@
+type: resource
+name: Uranium nightmare
+description: De l'uranium génétiquement modifier avec du nightmare pour pouvoir alimenter des bâtiments ultra instable EX: Central nucléaire ⚛. 
+explosiveness: 0.8,
+radioactivity: 1.9,
+flammability: 0.7,
+color: c6ff00

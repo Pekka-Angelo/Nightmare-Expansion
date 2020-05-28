@@ -1,0 +1,5 @@
+type: material
+name: Lingot d'uranium 
+description: De l'uranium lingotifier pour pouvoir l'utiliser pour construire diverses bâtiments.
+radioactivity: 1.9,
+color: 13ff00
