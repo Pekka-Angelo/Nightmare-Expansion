@@ -1,0 +1,10 @@
+{
+	"name": "nightmare liquide",
+	"description": "Du nightmare devenu liquide ? Essayez de le mettre dans un canon ! Il deviendra un véritable cauchemar",
+	"temperature":0.9,
+	"flammability":0.9,
+	"explosiveness":0.9,
+	"viscosity":0.9,	
+	"color": "c40000",
+	"lightColor": "bfe08477"
+} 

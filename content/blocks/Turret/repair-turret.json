@@ -1,0 +1,21 @@
+{
+	"localizedName": "Repair Turret",
+	"description": "Une tourelle qui répare les bâtiments comme la repair Turret mais en plus efficace. ",
+	"size": 4,
+	"reload": 40,
+	"range": 180,
+	"shootCone": 2,
+	"ammoUseEffect": "none",
+	"rotatespeed": 7.5,
+	"powerUse": 3.4,
+	"shootSound": "laser",
+	"recoil": 0,
+	"requirements": [
+		{ "item": "copper", "amount": 200 },
+		{ "item": "lead", "amount": 200 },
+		{ "item": "silicon", "amount": 120 },
+		{ "item": "titanium", "amount": 200 }
+	],
+	"category": "effect",
+	"research": "repair-point"
+}

@@ -1,0 +1,93 @@
+{
+	"name": Disperser Mk 2
+    "description": Un canon révolutionnaire contre les unités aériennes avec sa puissance de feu implacable. 
+    "type": "BurstTurret",
+	"health": 2400,
+	"size": 4,
+	"reload": 25,
+	"range": 330,
+	"inaccuracy": 15,
+	"rotatespeed": 20,
+	"shots": 10,
+	"burstSpacing": 3,
+	"targetAir": true,
+	"targetGround": false,
+	"category": "turret",
+	"shootCone": 30,
+	"ammo": {
+		"scrap": {
+			"damage": 6,
+	        "lifetime": 80,
+			"speed": 5,
+			"reloadMultiplier": 0.5,
+			"splashDamageRadius": 24,
+			"splashDamage": 22,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"hitEffect": "flakExplosion",
+			"ammoMultiplier": 5
+		},
+		"lead": {
+			"damage": 6,
+	        "lifetime": 90,
+			"speed": 4.2,
+			"splashDamageRadius": 15,
+			"splashDamage": 27,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"hitEffect": "flakExplosion",
+			"ammoMultiplier": 4
+		},
+		"metaglass": {
+			"damage": 6,
+	        "lifetime": 100,
+			"speed": 4,
+			"reloadMultiplier": 0.8,
+			"splashDamageRadius": 26,
+			"splashDamage": 30,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"fragBullet": "glassFrag",
+			"fragBullets": 6,
+			"hitEffect": "flakExplosion",
+			"ammoMultiplier": 5
+		},
+		"plastanium": {
+			"damage": 6,
+			"frontColor": "d8d97f",
+	        "backColor": "fffac6",
+	        "lifetime": 85,
+			"speed": 4,
+			"splashDamageRadius": 24,
+			"splashDamage": 40,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"fragBullet": "artilleryPlasticFrag",
+			"fragBullets": 6,
+			"hitEffect": "plasticExplosion",
+			"ammoMultiplier": 3
+		},
+		"nightmare": {
+			"damage": 15,
+			"frontColor": "a60000",
+			"backColor": "a60000",
+			"lifetime": 90,
+			"speed": 4,
+			"splashDamageRadius": 30,
+			"splashDamage": 15,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"hitEffect": "hitBulletBig",
+			"ammoMultiplier": 4,
+			"status": "freezing"
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 600 },
+		{ "item": "lead", "amount": 600 },
+		{ "item": "titanium", "amount": 200}
+	],
+	"research": "scatter"
+}

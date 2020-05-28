@@ -1,8 +1,8 @@
 {
-	"name": "Mur nightmare",
+	"name": "Petit mur en nightmare",
 	"localizedName": "Large Mending Wall"
 	"description": "Petit mur nightmare assez résistant et bloque le plupart des dégâts",
-	"health": 1200,
+	"health": 900,
 	"update": true,
 	"solid": true,
 	"BlockGroup": "walls",
