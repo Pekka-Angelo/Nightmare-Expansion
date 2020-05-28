@@ -1,0 +1,53 @@
+{
+	"type": "ImpactReactor",
+	"name": "Réacteur Nucléaire",
+	"description": "Une centrale nucléaire consommant de l'uranium infecter pour produire des qualités d'énergie phénoménal",
+	"health": 3000,
+	"itemCapacity": 20,
+	"size": 6,
+	"hasLiquids": true,
+	"powerProduction": 300,
+	"itemDuration": 350,
+	"generateEffect": "smeltsmoke",
+	"plasma0": "9e4444",
+	"plasma1": "9d0000",
+	"plasma2": "9e4444",
+	"plasma3": "9d0000",
+ "consumes": {
+  "power": 2.0, 
+  "item": "uranium3", 
+  "liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.3
+		}
+	},
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 2000
+		},
+		{
+			"item": "metaglass",
+			"amount": 1000
+		},
+		{
+			"item": "graphite",
+			"amount": 800
+		},
+		{
+			"item": "thorium",
+			"amount": 2000
+		},
+		{
+			"item": "silicon",
+			"amount": 800
+		},
+		{
+			"item": "nightmare",
+			"amount": 300
+		}
+	],
+	"category": "power",
+	"research": "impact-reactor",
+	"idleSound": "EnergyLoop2",
+}

@@ -1,8 +1,8 @@
 {
-	"name": "Mur nightmare",
+	"name": "Large mur en nightmare",
 	"localizedName": "Large Mending Wall"
-	"description": "Mur assez résistant mais utilise ça capacité d'absorption de Cauchemar",
-	"health": 3200,
+	"description": "Mur assez résistant et utilise ça capacité d'absorption de dégâts",
+	"health": 3000,
 	"update": true,
 	"solid": true,
 	"BlockGroup": "walls",
