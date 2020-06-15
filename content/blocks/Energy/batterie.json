@@ -1,0 +1,14 @@
+{
+	"type": "Battery",
+	"health": 1250,
+	"size": 4,
+	"consumes": { "powerBuffered": 200000 },
+	"requirements": [
+		{ "item": "metaglass", "amount": 100 },
+		{ "item": "titanium", "amount": 500 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "thorium", "amount": 400}
+	],
+	"category": "power",
+	"research": "battery-large"
+}

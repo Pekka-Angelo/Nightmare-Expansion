@@ -7,7 +7,7 @@
 	"size": 6,
 	"hasLiquids": true,
 	"powerProduction": 300,
-	"itemDuration": 350,
+	"itemDuration": 220,
 	"generateEffect": "smeltsmoke",
 	"plasma0": "9e4444",
 	"plasma1": "9d0000",
@@ -18,21 +18,21 @@
   "item": "uranium3", 
   "liquid": {
 			"liquid": "cryofluid",
-			"amount": 0.3
+			"amount": 0.9
 		}
 	},
 	"requirements": [
 	    {
 			"item": "lead",
-			"amount": 2000
+			"amount": 3500
 		},
 		{
 			"item": "metaglass",
-			"amount": 1000
+			"amount": 2400
 		},
 		{
 			"item": "graphite",
-			"amount": 800
+			"amount": 3400
 		},
 		{
 			"item": "thorium",
@@ -40,11 +40,11 @@
 		},
 		{
 			"item": "silicon",
-			"amount": 800
+			"amount": 1800
 		},
 		{
 			"item": "nightmare",
-			"amount": 300
+			"amount": 900
 		}
 	],
 	"category": "power",
