@@ -1,6 +1,14 @@
 {
-"name": "[red]Nightmare[blue] Expansion"
-"author": "Pekka Angelo and Senri"
-"description" : "[white]Ce mode est le fichier corrompu que Anuke n'a jamais publié ^^"
-"version" : "1.0"
+"displayName": "[#ca0000]<Nightmare[#2545fc] Expansion>"
+"name": "nightmare-expension"
+"author": "[#fc8e25]Pekka Angelo 
+[white]Co developers: [#9700a5]Mesokrix [white]& [#9700a5]Senri [white]& [#9700a5]jaaj [white]& [#9700a5]greg"
+"description": "Un Mods proposant:
+un contenu cool et variés qui sera vous satisfaire dans vaux PVP & survie.[#979797] 
+- New [#00a9e5]Tourelle[#979797] 
+- New [#00a9e5]Unit Factory[#979797] 
+- New [#00a9e5]Factory[#979797] 
+- New [#00a9e5]Mech[#979797] 
+- New [#00a9e5]Bâtiments" 
+"version": "[white]1.2"
 } 
