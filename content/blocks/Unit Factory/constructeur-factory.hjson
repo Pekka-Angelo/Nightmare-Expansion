@@ -6,7 +6,7 @@
 	"size": 3,
 	"produceTime": 500,
 	"health": 600,
-	"maxSpawn": 1,
+	"maxSpawn": 2,
 	"consumes": {
 		"power": 2.0,
 		"items": {
@@ -16,8 +16,8 @@
 					"amount": 100
 				},
 				{
-					"item": "nightmare", 
-    "amount": 80
+					"item": "surge-alloy", 
+    "amount": 30
    }, 
    {
    "item": "titanium",

@@ -4,20 +4,20 @@
 	"type": "UnitFactory",
 	"unitType": "miner",
 	"size": 4,
-	"produceTime": 300,
+	"produceTime": 400,
 	"health": 700,
-	"maxSpawn": 1,
+	"maxSpawn": 2,
 	"consumes": {
 		"power": 3.0,
 		"items": {
 			"items": [
 			    {
 					"item": "silicon",
-					"amount": 50
+					"amount": 10
 				},
 				{
 					"item": "thorium",
-					"amount": 30
+					"amount": 10
 				}
 			]
 		}

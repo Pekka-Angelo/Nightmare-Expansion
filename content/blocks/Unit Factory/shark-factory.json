@@ -1,0 +1,29 @@
+{
+	"name": "Shark factory",
+	"description": "Fabrique des unité aériennes bombardiers ultra puissante",
+	"type": "UnitFactory",
+	"unitType": "shark",
+	"size": 5,
+	"produceTime": 2000,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 3.2,
+		"items": {
+			"items": [
+				{"item": "graphite", "amount": 250},
+                {"item": "silicon", "amount": 250},
+				{"item": "titanium", "amount": 300},
+				{"item": "thorium", "amount": 200}
+			]
+		}
+	},
+	"category": "units",
+	"research": "revenant-factory",
+	"requirements": [
+		{ "item": "plastanium", "amount": 120},
+		{ "item": "graphite", "amount": 200 },
+		{ "item": "silicon", "amount": 230 },
+		{ "item": "titanium", "amount": 200 },
+		{ "item": "thorium", "amount": 130 }
+	]
+}

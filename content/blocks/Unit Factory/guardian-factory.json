@@ -1,0 +1,28 @@
+{
+	"name": "Guardian Factory",
+	"description": "Fabrique des unité aériennes d'assaut rapide, imbattables en soutien d'attaque ",
+	"type": "UnitFactory",
+	"unitType": "guardian",
+	"size": 4,
+	"produceTime": 2700,
+	"maxSpawn": 2,
+	"consumes": {
+		"power": 5.2,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 60},
+				{"item": "titanium", "amount": 50},
+				{"item": "thorium", "amount": 5}
+			]
+		}
+	},
+	"category": "units",
+	"research": "revenant-factory",
+	"requirements": [
+		{ "item": "plastanium", "amount": 100},
+		{ "item": "graphite", "amount": 250 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "titanium", "amount": 200 },
+		{ "item": "thorium", "amount": 90 }
+	]
+}

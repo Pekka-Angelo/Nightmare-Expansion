@@ -1,0 +1,45 @@
+{
+	"name": "Yeager Factory",
+	"description": "Un bombardier lourd plus redoutable que le ghoul qui atomisera ses enemies ",
+	"type": "UnitFactory",
+	"unitType": "yeager",
+	"size": 4,
+	"produceTime": 800,
+	"health": 800,
+	"maxSpawn": 3,
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 50
+				},
+				{
+					"item": "titanium",
+					"amount": 40
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "fortress-factory",
+	"requirements": [
+	    {
+			"item": "graphite",
+			"amount": 200
+		},
+		{
+	 "item": "thorium" 
+  "amount": 120 
+ },
+ { 
+  "item": "titanium",
+			"amount": 250
+		},
+		{
+			"item": "silicon",
+			"amount": 200
+		}
+	]
+}

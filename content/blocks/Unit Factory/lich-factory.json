@@ -1,31 +1,27 @@
 {
-	"name": "Lich nightmare factory",
-	"description": "Créer des lich venus tous droit d'un Cauchemar, elle sont plus puissante que les lich classiques",
+	"name": "Lich factory",
+	"description": "Produit une unité de combat aérienne au propriété équilibré ",
 	"type": "UnitFactory",
-	"unitType": "lichnightmare",
-	"size": 5,
-	"produceTime": 2300,
-	"health": 800,
-	"maxSpawn": 3,
+	"unitType": "lich",
+	"size": 4,
+	"produceTime": 3800,
+	"health": 640,
+	"maxSpawn": 2,
 	"consumes": {
-		"power": 8.0,
+		"power": 15.0,
 		"items": {
 			"items": [
 			    {
 					"item": "silicon",
 					"amount": 250
 				},
-				{ 
-   "item": "nightmare", 
-   "amount": 80
-   }, 
-   {
+				{
 					"item": "graphite",
-					"amount": 150
+					"amount": 120
 				},
 				{
 					"item": "titanium",
-					"amount": 300
+					"amount": 250
 				},
 				{
 					"item": "plastanium",
@@ -39,19 +35,19 @@
 	"requirements": [
 	    {
 			"item": "graphite",
-			"amount": 1000
+			"amount": 800
 		},
 		{
 			"item": "titanium",
-			"amount": 1500
-		},
-		{
-			"item": "silicon",
 			"amount": 1000
 		},
 		{
+			"item": "silicon",
+			"amount": 800
+		},
+		{
 			"item": "surge-alloy",
-			"amount": 200
+			"amount": 250
 		},
 		{
 			"item": "plastanium",

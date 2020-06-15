@@ -1,0 +1,57 @@
+{
+	"name": "baby lich nightmare factory",
+	"description": "Créer des baby lich nightmare plus fragile mais redoutable en groupe L'UNION FAIT LA FORCE. ",
+	"type": "UnitFactory",
+	"unitType": "babylich",
+	"size": 4,
+	"produceTime": 1100,
+	"health": 550,
+	"maxSpawn": 5,
+	"consumes": {
+		"power": 4.0,
+		"items": {
+			"items": [
+			    {
+					"item": "silicon",
+					"amount": 80
+				},
+				{ 
+					"item": "graphite",
+					"amount": 70
+				},
+				{
+					"item": "titanium",
+					"amount": 80
+				},
+				{
+					"item": "plastanium",
+					"amount": 60
+				}
+			]
+		}
+	},
+	"category": "units",
+	"research": "titan-factory",
+	"requirements": [
+	    {
+			"item": "graphite",
+			"amount": 450
+		},
+		{
+			"item": "titanium",
+			"amount": 650
+		},
+		{
+			"item": "silicon",
+			"amount": 400
+		},
+		{
+			"item": "surge-alloy",
+			"amount": 80
+		},
+		{
+			"item": "plastanium",
+			"amount": 75
+		}
+	]
+}
