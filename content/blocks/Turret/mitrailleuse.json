@@ -1,0 +1,68 @@
+{
+    "type": "DoubleTurret",
+    "name": Mitrailleuse de soutien, 
+   "health": 3000,
+    "size": 3,
+    "reload": 10,
+    "restitution": 0.01,
+    "range": 150,
+    "ammoUseEffect": "shellEjectSmall",
+    "inaccuracy": 4,
+    "rotatespeed": 3,
+    "shotWidth": 3.5,
+    "ammo": {
+        "copper": {
+            "speed": 12,
+            "lifetime": 60,
+            "damage": 35,
+            "bulletWidth": 18,
+            "bulletHeight": 20,
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootBigSmoke"
+        },
+        "silicon": {
+            "speed": 12,
+            "homingPower": 5,
+            "lifetime": 60,
+            "damage": 35,
+            "bulletWidth": 18,
+            "bulletHeight": 20,
+            "reloadMultiplier": 1.4,
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootBigSmoke"
+        },
+        "graphite": {
+            "speed": 13,
+            "lifetime": 60,
+            "damage": 85,
+            "bulletWidth": 21,
+            "bulletHeight": 23,
+            "reloadMultiplier": 0.6,
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootBigSmoke"
+      },
+        "uranium1":
+        {
+            "speed": 14,
+            "lifetime": 60,
+            "damage": 115,
+            "bulletWidth": 26,
+            "bulletHeight": 30,
+            "frontColor": "45a633",
+            "backColor": "45a633",
+            "shootEffect": "shootBig",
+            "smokeEffect": "shootBigSmoke",
+            "fragBullet": "fireball",
+            "fragBullets": 10,
+            "status": "melting"
+        }
+    },
+    "requirements": [
+        { "item": "lead", "amount": 150 },
+        { "item": "copper", "amount": 270 }
+        { "item": "graphite", "amount": 115 },
+        { "item": "titanium", "amount": 70 },
+  ],
+    "category": "turret"
+    "research": "duo" 
+}

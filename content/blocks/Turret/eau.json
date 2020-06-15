@@ -1,0 +1,91 @@
+{
+  "type": "liquidTurret",
+  "name": "requin",
+  "Description": "Le requin et une tourelle aquatique plus avancé que la vague",
+	"health": 1700,
+	"size": 3,
+	"reload": 3,
+	"range": 160,
+	"recoil": 3,
+	"shootShake": 1,
+	"outlineIcon": false,
+	"ammoUseEffect": "none",
+	"inaccuracy": 0,
+	"shots": 2,
+	"spread": 8,
+	"rotatespeed": 15,
+	"activeSound": "spray",
+	"hasLiquids": true,
+	"ammo": {
+		"water": {
+			"type": "LiquidBulletType",
+			"drag": 0.03,
+			"speed": 15,
+			"knockback": 1,
+			"ammoMultiplier": 1.2,
+			"liquid": "water"
+		},
+
+		"slag": {
+			"type": "LiquidBulletType",
+			"drag": 0.08,
+			"speed": 15,
+			"knockback": 0.2,
+			"ammoMultiplier": 1.5,
+			"damage": 2.5,
+			"liquid": "slag"
+		},
+
+		"cryofluid": {
+			"type": "LiquidBulletType",
+			"drag": 0.01,
+			"speed": 15,
+			"knockback": 0.6,
+			"ammoMultiplier": 1.5,
+			"liquid": "cryofluid"
+		},
+
+		"oil": {
+			"type": "LiquidBulletType",
+			"drag": 0.07,
+			"speed": 15,
+			"knockback": 0.4,
+			"ammoMultiplier": 1.5,
+			"liquid": "oil"
+		},
+		
+		"nightmare-liquide": {
+			"type": "LiquidBulletType",
+			"drag": 0.07,
+			"speed": 12,
+			"knockback": 0.2,
+			"damage": 3,
+			"liquid": "nightmare-liquide",
+			"ammoMultiplier": 1,
+            "status": {             
+             "name": "Infernal",
+             "speedMultiplier": 1.2,
+             "armorMultiplier": 1.5,
+             "damage": 1.4,
+             "effect": "overdriven"
+           }
+		},
+
+	},
+	"requirements": [
+	    {
+			"item": "lead",
+			"amount": 125
+		},
+		{
+			"item": "metaglass",
+			"amount": 175
+		},
+		{
+		  "item": "copper",
+		  "amount": 125
+		}
+	],
+	"category": "turret",
+	"research": "wave"
+}

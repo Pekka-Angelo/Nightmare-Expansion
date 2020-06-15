@@ -1,0 +1,38 @@
+{
+    "type": "ItemTurret",
+    "name": "canon Sniper",
+    "description": "Une tourelle sniper pratique pour les tire d'appui ",
+    "outlineIcon": false,
+    "targetAir": false,
+    "targetGround": true,
+    "health": 1100,
+    "size": 3,
+    "inaccuracy": 0,
+    "reload": 250,
+    "shootCone": 19,
+    "shots": 1,
+    "range": 750,
+    "burstSpacing": 5,
+    "restitution": 0.5,
+    "ammo": {
+        "titanium": {
+            "type": "BasicBulletType",           
+             "speed": 31,
+            "bulletWidth": 30,
+            "bulletHeight": 17,
+             "lifetime": 100,
+             "damage": 240,
+             "knockback": 1,
+             "shootEffect": "explosion",
+             "hitEffect": "bigShockwave",
+        }
+     },
+    "requirements": [
+        { "item": "copper", "amount": 125 },
+        { "item": "lead", "amount": 125 },
+        { "item": "titanium", "amount": 150 },
+    ],
+    "category": "turret",
+    "shootSound": "Pan1",
+    "research": "swarmer",
+}

@@ -1,0 +1,31 @@
+type: ChargeTurret
+name: arc aérien
+Description: Un canon anti aérien électrique 
+category: turret
+range: 170
+chargeTime: 50
+chargeMaxDelay: 30
+chargeEffect: 7
+shootType: arc
+recoilAmount: 2
+reload: 10
+shots: 5
+cooldown: 0.03
+powerUse: 2.5
+shootShake: 5
+shootEffect: lancerLaserShoot
+smokeEffect: lancerLaserShootSmoke
+chargeEffect: lancerLaserCharge
+chargeBeginEffect: lancerLaserChargeBegin
+heatColor: Color.red
+size: 3
+health: 1500
+targetAir: true
+targetGround: false
+shootSound: laser
+research: lancer
+requirements: [
+  copper/50
+  lead/70
+  silicon/70
+]
