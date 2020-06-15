@@ -1,0 +1,27 @@
+{
+	"type": "flyingUnit",
+	"name": "Yeager",
+	"description": "Un bombardier lourd imbattables avec une grande résistance",
+	"mass": 30,
+    "speed": 0.02, 
+    "drag": 0.016
+    "flying": true,
+	"health": 800,
+	"targetAir": false, 
+    "engineOffset": 8.8,
+    "accel": 0.08, 
+	"range": 170,
+    "faceTarget": false, 
+    "engineColor": c60909, 
+ "weapon": {
+		"name": "yeager-equip",
+		"reload": 9,
+		"shootCone": 180, 
+        "inaccuracy": 50,
+        "shots": 8,
+		"ignoreRotation": true
+        "alternate": true,
+		"shootSound": "none"
+	    "bullet":bombExplosive
+ }
+}

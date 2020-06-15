@@ -3,7 +3,7 @@ name: Drone nightmare Constructeur.
 description: Une version plus avancé des drones constructeurs classique.
 speed: 1.0
 drag: 0.125
-mass: 9
+mass: 7
 maxVelocity: 2.75
 flying: true
 health: 1000

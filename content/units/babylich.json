@@ -1,0 +1,33 @@
+{
+	"type": "HoverUnit",
+	"name": "Baby lich nightmare ",
+	"description": "La baby lich et beaucoup plus faible que c'est parents mais si vous en rassembler beaucoup pour une attaque ça sera un vrai feu d'artifice",
+	"speed": 0.11,
+	"mass": 25,
+    "maxVelocity": 0.3,
+	"drag": 0. 02,
+    "flying": true,
+	"drag": 0.02,
+	"health": 3500,
+	"range": 42,
+	"shootCone": 20, 
+    "engineOffset": 12.2,
+    "engineSize": 3.4,
+    "hitsize": 40,
+	"rotatespeed": 0.01,
+	"weaponOffsetY": 10,
+ "weapon": {
+		"name": "lich-equip",
+		"length": 4,
+		"width": 22,
+		"reload": 170,
+		"shots": 8,
+		"shotDelay": 2,
+		"spacing": 1,
+		"velocityRnd": 0.2, 
+		"inaccuracy": 15,
+		"alternate": true,
+		"shootSound": "shootBig"
+	    "bullet":missileRevenant
+ }
+}

@@ -1,0 +1,27 @@
+{
+	"type": "flyingUnit",
+	"name": "Shark",
+	"description": "Un bombardier lourd ultra résistant avec une puissance de feu hors normes ",
+	"mass": 40,
+    "speed": 0.01, 
+    "drag": 0.016
+    "flying": true,
+	"health": 4300,
+	"targetAir": false, 
+   "engineSize": 2.7,
+    "engineOffset": 27.8,
+    "accel": 0.08, 
+	"range": 220,
+    "faceTarget": false, 
+ "weapon": {
+		"name": "yeager-equip",
+		"reload": 8,
+		"shootCone": 90, 
+        "inaccuracy": 90,
+        "shots": 25,
+		"ignoreRotation": true
+        "alternate": true,
+		"shootSound": "none"
+	    "bullet":bombExplosive
+ }
+}

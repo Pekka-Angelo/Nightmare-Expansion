@@ -1,19 +1,16 @@
 "type": "spirit" 
 "name": "Réparateur spirituel nightmare" 
-"description": "Un drone réparateur ultra avancé." 
-"speed": "2.0" 
+"description": "Un drone réparateur ultra avancé qui tire des balle de soin qui soigne et qui tue les enemies ce trouvant derrière un mur." 
+"speed": "9.0" 
 "flying": true
 "accel": "0.2" 
 "health": "400" 
 "engineOffset": "5.7" 
-"range": "100" 
+"range": "80" 
 "weapon": {
   "name": "soigneur-blaster" 
   "length": 1.5
-  "reload": 5.0
-  "alternate": true
+  "reload": 9.0
+  "alternate": false
   "bullet": "healBulletBig"
-     
-        
-  
-} 
+}
