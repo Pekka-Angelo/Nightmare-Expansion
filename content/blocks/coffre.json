@@ -1,0 +1,16 @@
+{
+	"name": "cellar nightmare",
+	"description": "Rien de plus rassurant que de stocker entre la vie et la mort :)",
+	"type": "Vault",
+	"itemCapacity": 8000,
+	"hasItems": true,
+	"health": 640,
+	"size": 4,
+	"requirements": [
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "titanium", "amount": 30 },
+		{ "item": "thorium", "amount": 250 }
+	],
+	"category": "effect",
+	"research": "vault"
+}

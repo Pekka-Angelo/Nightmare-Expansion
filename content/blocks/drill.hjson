@@ -1,0 +1,30 @@
+{
+	"type": "Drill",
+	"localizedName": "Foreuse tout terrain",
+	"description": "Une petite foreuse, pour pouvoir miner le moindre block de minérai et oui faut pas gaspiller.",
+	"size": 1,
+	"tier": 5,
+	"drillTime": 25,
+	"liquidBoostIntensity": 1.8,
+	"warmupSpeed": 0.01,
+	"updateEffectChance": 0.03,
+	"hasLiquids": true,
+	"expanded": true,
+	"consumes": {
+		"power": 1,
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.03,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "graphite", "amount": 20 },
+		{ "item": "silicon", "amount": 20 },
+		{ "item": "titanium", "amount": 30}, 
+	],
+	"category": "production",
+	"research": "blast-drill"
+}

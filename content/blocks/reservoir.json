@@ -1,0 +1,16 @@
+{
+	"name": "Petit réservoir",
+	"description": "Un réservoir d'eau compresser avec moin de capacité mais plus facile à caller dans la défense.",
+	"type": "LiquidTank",
+	"liquidCapacity": 950,
+	"hasItems":false,
+	"health": 300,
+	"size": 2,
+	"requirements": [
+		{ "item": "metaglass", "amount": 12 },
+		{ "item": "titanium", "amount": 12 },
+		{ "item": "copper", "amount": 40  }
+	],
+	"category": "liquid",
+	"research": "liquid-tank"
+}

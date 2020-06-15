@@ -1,0 +1,31 @@
+{
+	"type": "Drill",
+	"localizedName": "Foreuse à explosion laser",
+	"description": "La version amélioré de la foreuse a explosion.",
+	"size": 5,
+	"tier": 5,
+	"drillTime": 140,
+	"liquidBoostIntensity": 1.7,
+	"warmupSpeed": 0.01,
+	"updateEffectChance": 0.03,
+	"hasLiquids": true,
+	"expanded": true,
+	"consumes": {
+		"power": 12,
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.4,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 160},
+        { "item": "copper", "amount": 250 },
+		{ "item": "graphite", "amount": 200 },
+		{ "item": "silicon", "amount": 180 },
+		{ "item": "titanium", "amount": 190}, 
+	],
+	"category": "production",
+	"research": "blast-drill"
+}
