@@ -1,0 +1,13 @@
+name: Large mur d'uranium 
+description: Un large mur en Uranium plus solide que le mur en thorium.
+health: 3450
+size: 2
+update: true 
+solid: true
+blockGround: walls
+requirements: [
+   uranium2/24
+    thorium/24
+]
+category: defense
+research: thorium-wall

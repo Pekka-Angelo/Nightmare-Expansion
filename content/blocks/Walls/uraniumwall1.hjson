@@ -1,0 +1,13 @@
+name: Petit mur d'uranium 
+description: Un solide mur en Uranium plus efficace que les mur en thorium
+size: 1
+health: 880
+update: true 
+solid: true
+blockGround: walls
+requirements: [
+   uranium2/6
+    thorium/6
+]
+category: defense
+research: thorium-wall
