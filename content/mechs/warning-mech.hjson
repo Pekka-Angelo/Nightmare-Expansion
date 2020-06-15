@@ -1,0 +1,21 @@
+name: Warning
+description: Warning et un mécha électrique et très pratique .
+speed: 0.6
+boostSpeed: 1.5
+buildPower: 3
+engineOffset: 10.2,
+engineSize: 2.7,
+mineSpeed: 5
+drillPower: 3
+ItemCapacity: 80
+engineColor: "c9d1ff"
+flying: false
+health: 600
+weaponOffsetX: 4
+weapon: {
+  name: clear
+  length: 1.5
+  reload: 10
+  alternate: true
+  bullet: lightning
+}
