@@ -1,0 +1,17 @@
+name: Warning Pad
+description: Devener un mécha électriquement instable 
+type: MechPad
+mech: warning-mech
+size: 2
+consumes: {
+  power: 3.5
+}
+category: upgrade
+research: delta-mech-pad
+requirements: [
+  thorium/175
+  titanium/150
+  silicon/200
+  graphite/100
+  surge-alloy/100
+]
