@@ -9,7 +9,7 @@ const shellEjectHuge = elib.newGroundEffect(27, 400, e => {
 		
 		var len = (19 + e.finpow() * 9) * sign;
 		var lr = rot + Mathf.randomSeedRange(e.id + sign + 6, 16 * e.fin()) * sign;
-		Draw.rect(Core.atlas.find("casing"),
+		Draw.rect(Core.atlas.find("block-6"),
 		e.x + Angles.trnsx(lr, len) + Mathf.randomSeedRange(e.id + sign + 7, 3.3 * e.fin()),
 		e.y + Angles.trnsy(lr, len) + Mathf.randomSeedRange(e.id + sign + 8, 3.3 * e.fin()),
 		3, 6,
@@ -24,13 +24,13 @@ quake = extendContent(DoubleTurret, "quake-mk2", {
 	},*/
 	
 	draw: function(tile){
-        Draw.rect(Core.atlas.find("nightmare-expansion-block-6"), tile.drawx(), tile.drawy());
+        Draw.rect(Core.atlas.find("block-6"), tile.drawx(), tile.drawy());
         Draw.color();
     },
 	
 	generateIcons: function(){
 	return [
-		Core.atlas.find("nightmare-expansion-block-6"),
+		Core.atlas.find("block-6"),
 		Core.atlas.find(this.name)
 	];},
 	
@@ -86,8 +86,8 @@ quake.shotWidth = 5.9;
 quake.extraVelocity = 0.4;
 quake.shotsB = 13;
 quake.midBarrelOff = 4;
-quake.inaccuracy = 12;
-quake.reload = 24;
+quake.inaccuracy = 13;
+quake.reload = 29;
 quake.ammoEjectBack = 8;
 //quake.ammoUseEffect = Fx.shellEjectBig;
 quake.ammoUseEffect = shellEjectHuge;
@@ -96,7 +96,7 @@ quake.cooldown = 0.03;
 quake.restitution = 0.02;
 quake.recoil = 5;
 quake.shootShake = 2;
-quake.range = 440;
+quake.range = 450;
 quake.shootSound = Sounds.artillery;
 quake.ammo(
 		Items.graphite, Bullets.artilleryDense,

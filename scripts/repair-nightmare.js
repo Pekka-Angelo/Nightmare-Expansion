@@ -65,7 +65,7 @@ const rScanner = extend(BasicBulletType, {
 });
 
 rScanner.healPercent = 0.975;
-rScanner.speed = 0.001;
+rScanner.speed = 0.01;
 rScanner.searchAccuracy = 25;
 rScanner.lengthB = 75;
 rScanner.damage = 0;
