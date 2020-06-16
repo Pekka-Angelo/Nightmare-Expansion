@@ -18,20 +18,20 @@ const shellEjectHuge = elib.newGroundEffect(27, 400, e => {
 });
 
 quake = extendContent(DoubleTurret, "quake-mk2", {
-	/*load: function(){
+	load: function(){
 		this.region = Core.atlas.find(this.name);
-		this.baseRegion = Core.atlas.find("advancecontent-block-6");
-	},*/
+		this.baseRegion = Core.atlas.find("nightmare-expension-block-6");
+	},
 	
 	draw: function(tile){
-        Draw.rect(Core.atlas.find("block-6"), tile.drawx(), tile.drawy());
+        Draw.rect(Core.atlas.find(this.baseRegion), tile.drawx(), tile.drawy());
         Draw.color();
     },
 	
 	generateIcons: function(){
 	return [
-		Core.atlas.find("block-6"),
-		Core.atlas.find(this.name)
+		Core.atlas.find(this.baseRegion);
+		Core.atlas.find(this.name);
 	];},
 	
 	shoot: function(tile, ammo){
