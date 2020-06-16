@@ -84,10 +84,10 @@ quake = extendContent(DoubleTurret, "quake-mk2", {
 });
 quake.shotWidth = 5.9;
 quake.extraVelocity = 0.4;
-quake.shotsB = 13;
+quake.shotsB = 15;
 quake.midBarrelOff = 4;
-quake.inaccuracy = 13;
-quake.reload = 29;
+quake.inaccuracy = 16;
+quake.reload = 24;
 quake.ammoEjectBack = 8;
 //quake.ammoUseEffect = Fx.shellEjectBig;
 quake.ammoUseEffect = shellEjectHuge;
@@ -96,10 +96,9 @@ quake.cooldown = 0.03;
 quake.restitution = 0.02;
 quake.recoil = 5;
 quake.shootShake = 2;
-quake.range = 450;
+quake.range = 430;
 quake.shootSound = Sounds.artillery;
 quake.ammo(
-		Items.graphite, Bullets.artilleryDense,
 		Items.silicon, Bullets.artilleryHoming,
 		Items.pyratite, Bullets.artilleryIncendiary,
 		Items.blastCompound, Bullets.artilleryExplosive,
