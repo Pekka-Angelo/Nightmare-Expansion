@@ -81,13 +81,14 @@
 			"bulletHeight": 10,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
-			"hitEffect": "hitBulletBig",
+			"hitEffect": "flakExplosion",
 			"ammoMultiplier": 4,
-			"status": "freezing"
+			"status": "burning"
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 600 },
+		{ "item": "plastanium", "amount": 30 },
+        { "item": "copper", "amount": 600 },
 		{ "item": "lead", "amount": 600 },
 		{ "item": "titanium", "amount": 300}
 	],

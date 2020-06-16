@@ -1,30 +1,30 @@
 {
     "type": "DoubleTurret",
     "name": canon nucléaire, 
-   "health": 8000,
+   "health": 3000,
     "size": 4,
-    "reload": 20,
+    "reload": 28,
     "restitution": 0.03,
-    "range": 200,
+    "range": 250,
     "ammoUseEffect": "shellEjectSmall",
     "inaccuracy": 6,
     "rotatespeed": 5,
     "shotWidth": 5.5,
     "ammo": {
         "copper": {
-            "speed": 5,
+            "speed": 6,
             "lifetime": 60,
-            "damage": 144,
+            "damage": 115,
             "bulletWidth": 28,
             "bulletHeight": 36,
             "shootEffect": "shootBig",
             "smokeEffect": "shootBigSmoke"
         },
         "silicon": {
-            "speed": 6,
+            "speed": 7,
             "homingPower": 5,
             "lifetime": 60,
-            "damage": 144,
+            "damage": 145,
             "bulletWidth": 28,
             "bulletHeight": 36,
             "reloadMultiplier": 1.4,
@@ -34,7 +34,7 @@
         "graphite": {
             "speed": 7,
             "lifetime": 60,
-            "damage": 288,
+            "damage": 175,
             "bulletWidth": 36,
             "bulletHeight": 48,
             "reloadMultiplier": 0.6,
@@ -43,9 +43,9 @@
       },
         "uranium1":
         {
-            "speed": 6.4,
+            "speed": 8,
             "lifetime": 60,
-            "damage": 376,
+            "damage": 235,
             "bulletWidth": 40,
             "bulletHeight": 48,
             "frontColor": "45a633",
@@ -53,13 +53,15 @@
             "shootEffect": "shootBig",
             "smokeEffect": "shootBigSmoke",
             "fragBullet": "fireball",
-            "fragBullets": 10,
+            "fragBullets": 15,
             "status": "melting"
         }
     },
     "requirements": [
-        { "item": "lead", "amount": 70 },
-        { "item": "copper", "amount": 140 }
+        { "item": "silicon", "amount": 160 },
+        { "item": "thorium", "amount": 180 },
+        { "item": "lead", "amount": 600 },
+        { "item": "graphite", "amount": 140 }
     ],
     "category": "turret"
     "research": "duo" 

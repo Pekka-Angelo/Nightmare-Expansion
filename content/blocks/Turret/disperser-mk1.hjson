@@ -4,11 +4,11 @@
     "type": "BurstTurret",
 	"health": 2400,
 	"size": 4,
-	"reload": 25,
-	"range": 330,
-	"inaccuracy": 15,
+	"reload": 30,
+	"range": 290,
+	"inaccuracy": 17,
 	"rotatespeed": 20,
-	"shots": 10,
+	"shots": 8,
 	"burstSpacing": 3,
 	"targetAir": true,
 	"targetGround": false,
@@ -16,10 +16,10 @@
 	"shootCone": 30,
 	"ammo": {
 		"scrap": {
-			"damage": 6,
+			"damage": 8,
 	        "lifetime": 80,
 			"speed": 5,
-			"reloadMultiplier": 0.5,
+			"reloadMultiplier": 1,
 			"splashDamageRadius": 24,
 			"splashDamage": 22,
 			"bulletWidth": 8,
@@ -28,7 +28,7 @@
 			"ammoMultiplier": 5
 		},
 		"lead": {
-			"damage": 6,
+			"damage": 7,
 	        "lifetime": 90,
 			"speed": 4.2,
 			"splashDamageRadius": 15,
@@ -39,7 +39,7 @@
 			"ammoMultiplier": 4
 		},
 		"metaglass": {
-			"damage": 6,
+			"damage": 8,
 	        "lifetime": 100,
 			"speed": 4,
 			"reloadMultiplier": 0.8,
@@ -53,7 +53,7 @@
 			"ammoMultiplier": 5
 		},
 		"plastanium": {
-			"damage": 6,
+			"damage": 15,
 			"frontColor": "d8d97f",
 	        "backColor": "fffac6",
 	        "lifetime": 85,
@@ -68,7 +68,7 @@
 			"ammoMultiplier": 3
 		},
 		"nightmare": {
-			"damage": 15,
+			"damage": 20,
 			"frontColor": "a60000",
 			"backColor": "a60000",
 			"lifetime": 90,
