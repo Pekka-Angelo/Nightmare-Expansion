@@ -30,8 +30,8 @@ quake = extendContent(DoubleTurret, "quake-mk2", {
 	
 	generateIcons: function(){
 	return [
-		Core.atlas.find(this.baseRegion);
-		Core.atlas.find(this.name);
+		Core.atlas.find(this.baseRegion),
+		Core.atlas.find(this.name)
 	];},
 	
 	shoot: function(tile, ammo){
