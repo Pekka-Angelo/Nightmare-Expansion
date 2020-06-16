@@ -2,7 +2,7 @@
 	"name": "Petit réservoir",
 	"description": "Un réservoir d'eau compresser avec moin de capacité mais plus facile à caller dans la défense.",
 	"type": "LiquidTank",
-	"liquidCapacity": 950,
+	"liquidCapacity": 750,
 	"hasItems":false,
 	"health": 300,
 	"size": 2,
