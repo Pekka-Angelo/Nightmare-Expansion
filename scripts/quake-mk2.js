@@ -30,7 +30,7 @@ quake = extendContent(DoubleTurret, "quake-mk2", {
 	
 	generateIcons: function(){
 	return [
-		Core.atlas.find(this.baseRegion),
+		Core.atlas.find("nightmare-expension-block-6"),
 		Core.atlas.find(this.name)
 	];},
 	
